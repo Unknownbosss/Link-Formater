@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link Formatter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <button id="toggle-mode">Toggle Dark/Light</button><br>
+        <!-- Input area for links -->
+        <textarea id="input-links" placeholder="Paste links here..."></textarea>
+
+        <!-- Convert button -->
+        <button id="convert-btn">Convert</button><br>
+
+        <!-- Output area for formatted links -->
+        <textarea id="output-links" readonly></textarea>
+
+        <div>
+            <!-- Copy button -->
+            <button id="copy-btn">Copy</button>
+
+            <!-- Batch navigation buttons -->
+            <button id="prev-btn">Previous</button>
+            <button id="next-btn">Next</button>
+        </div>
+
+        <!-- Batch information display -->
+        <span id="batch-info"></span>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
